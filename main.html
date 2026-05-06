@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+    
+    
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="page-bg">
+        <div class="blob blob1"></div>
+        <div class="blob blob2"></div>
+    </div>
+ 
+    <div class="wrapper">
+        <div class="heading">
+            <span class="label">CALC</span>
+            <h1> Calculator</h1>
+        </div>
+ 
+
+
+
+
+        <div  class="container">
+            
+            <div class="display-wrap">
+                <div class="display-expression" id="expression"></div>
+                <input type="text" id="display" readonly placeholder="0">
+            </div>
+
+            <div id="buttons">
+                <button class="btn num" data-val="7">7</button>
+                <button class="btn num" data-val="8">8</button>
+                <button class="btn num" data-val="9">9</button>
+                <button class="btn operation" data-val="/">&divide;</button>
+ 
+
+
+
+
+
+                <button class="btn num" data-val="4">4</button>
+                <button class="btn num" data-val="5">5</button>
+                <button class="btn num" data-val="6">6</button>
+                <button class="btn operation" data-val="*">&times;</button>
+ 
+
+
+                <button class="btn num" data-val="1">1</button>
+                <button class="btn num" data-val="2">2</button>
+                <button class="btn num" data-val="3">3</button>
+                <button class="btn operation" data-val="-">&minus;</button>
+ 
+
+
+
+
+                <button class="btn num" data-val="0">0</button>
+                <button class="btn clear" id="clearBtn">C</button>
+                <button class="btn equals" id="equalsBtn">=</button>
+                <button class="btn operation" data-val="+">+</button>
+            </div>
+        </div>
+    </div>
+ 
+    <script src="script.js"></script>
+</body>
+</html>
